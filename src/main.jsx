@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Landing from './Pages/Landing';
+import SecondPage from './Pages/SecondPage';
+
 
 // Style Sheets Imports
 import '/public/assets/css/index.css';
@@ -13,6 +15,7 @@ export function Application() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />}></Route>
+        <Route path="/secondPage" element={<SecondPage />}  />
       </Routes>
     </BrowserRouter>
   );

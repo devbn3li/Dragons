@@ -7,6 +7,7 @@ function SecondPage() {
     return (
         <div className=' bg-black'>
             <TopHeader />
+            
             <MainBody />
         </div>
     );

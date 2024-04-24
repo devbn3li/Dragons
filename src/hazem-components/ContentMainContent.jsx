@@ -10,7 +10,7 @@ function ContentMainContent() {
                 <p className=' p-5 text-sm text-borderColor mb-6 '>Aliquam et tellus urna. Phasellus egetadipiscing elit. Mauris id nunc odio.
                     Aliquam et tellus urna. Phasellus egetl</p>
             </div>
-            <div className="boxes flex sm:flex-col md:flex-row justify-evenly items-center  ">
+            <div className="boxes flex flex-col md:flex-row justify-evenly items-center  ">
                 <div className="box text-center mb-14 ">
                     <div className="icon">
                         <div className="w-12 h-12 bg-ItemsColor rounded-full mx-auto shadow-box-shadow"></div>

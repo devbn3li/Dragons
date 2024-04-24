@@ -13,7 +13,7 @@ function SecondPage() {
             <TopHeader />
             <div className="container mx-auto bg-SectionAsideColor2 rounded-3xl w-full">
                 <ZenteroHeader />
-                <div className=" flex sm:flex-col md:flex-row gap-4 mx-auto  ">
+                <div className=" flex flex-col md:flex-row gap-4 mx-auto  ">
                     <Aside />
                     <div className='content flex-1  '>
                         <div className="all bg-SectionColor p-3 rounded-lg">

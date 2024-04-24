@@ -19,7 +19,13 @@ export default {
         Graygradiant: "#9eadb9",
         background: "#161616",
         borderColor: "#757575",
-        TextColor:"#3057ba"
+        TextColor: "#3057ba",
+        SectionColor: "#06090b",
+        SectionAsideColor2: "#060606",
+        ItemsColor:"#141518"
+      },
+      boxShadow: {
+        'box-shadow': '0px 0px 25px 1px gray',
       }
     },
   },

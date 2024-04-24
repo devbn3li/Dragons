@@ -25,6 +25,7 @@ function SecondPage() {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }

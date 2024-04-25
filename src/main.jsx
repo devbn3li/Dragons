@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Landing from './Pages/Landing';
 import SecondPage from './Pages/SecondPage';
+import PageN5 from './Pages/PageN5';
 
 
 // Style Sheets Imports
@@ -15,7 +16,8 @@ export function Application() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />}></Route>
-        <Route path="/secondPage" element={<SecondPage />}  />
+        <Route path="/secondPage" element={<SecondPage />} />
+        <Route path="/pageN5" element={<PageN5  />} />
       </Routes>
     </BrowserRouter>
   );

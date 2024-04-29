@@ -9,6 +9,7 @@ import SecondPage from './Pages/SecondPage';
 // Style Sheets Imports
 import '/public/assets/css/index.css';
 import FirstPage from './Pages/FirstPage/FirstPage.jsx';
+import Customer from './Pages/Customer/Customer.jsx';
 
 // Application Component
 export function Application() {
@@ -18,6 +19,7 @@ export function Application() {
         <Route path="/" element={<Landing />}></Route>
         <Route path="/secondPage" element={<SecondPage />}  />
         <Route path="/first" element={<FirstPage />}  />
+        <Route path="/customer" element={<Customer/>}  />
 
       </Routes>
     </BrowserRouter>
